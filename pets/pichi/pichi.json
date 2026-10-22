@@ -1,0 +1,64 @@
+{
+  "pet": "pichi",
+  "frameWidth": 192,
+  "frameHeight": 208,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 6,
+      "fps": 6,
+      "loop": true
+    },
+    "running-right": {
+      "file": "running-right.png",
+      "frames": 8,
+      "fps": 10,
+      "loop": true
+    },
+    "running-left": {
+      "file": "running-left.png",
+      "frames": 8,
+      "fps": 10,
+      "loop": true
+    },
+    "waving": {
+      "file": "waving.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    },
+    "jumping": {
+      "file": "jumping.png",
+      "frames": 5,
+      "fps": 10,
+      "loop": false,
+      "frameHeight": 272,
+      "note": "taller cell so the bigger jump fits; align to the bottom edge like the others"
+    },
+    "failed": {
+      "file": "failed.png",
+      "frames": 8,
+      "fps": 8,
+      "loop": false
+    },
+    "waiting": {
+      "file": "waiting.png",
+      "frames": 6,
+      "fps": 6,
+      "loop": true
+    },
+    "running": {
+      "file": "running.png",
+      "frames": 6,
+      "fps": 8,
+      "loop": true
+    },
+    "review": {
+      "file": "review.png",
+      "frames": 6,
+      "fps": 6,
+      "loop": true
+    }
+  },
+  "anchor": "bottom-center"
+}
